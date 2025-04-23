@@ -22,8 +22,8 @@ variable "api_access_token_lifetime" {
   default     = 86400 # 24 hours
 }
 
-# TODO: Consider removing the default values for `resource_api_name` 
-# and `resource_api_identifier` if they are environment-specific. 
+# TODO: Consider removing the default values for "resource_api_name" 
+# and "resource_api_identifier" if they are environment-specific. 
 # This ensures explicit configuration for each environment.
 variable "resource_api_name" {
   description = "API name"
